@@ -14,7 +14,7 @@ public class BaseClass {
 	@BeforeClass
 	public void setUpDriverInstance(String browserType)
 	{
-
+		System.out.println("in Setup Driver Instance");
 		if(driver==null)
 		{
 			if(browserType.equals("FF"))
